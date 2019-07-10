@@ -1,0 +1,21 @@
+{
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Powerloss Pushover webhook notifier",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivan-aleksandrov/homebridge-powerloss-pushover-notifier.git"
+  },
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=8.0.0"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "powerloss-pushover-notifier"
+  ],
+  "license": "MIT",
+  "name": "homebridge-powerloss-pushover-notifier",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ivan-aleksandrov/homebridge-powerloss-pushover-notifier#readme"
+}
