@@ -14,10 +14,10 @@ var options = {
   }
 };
 
-module.exports = function (homebridge) {
-  Service = homebridge.hap.Service;
-  homebridge.registerAccessory("homebridge-powerloss-pushover-notifier", "PowerlossPushoverNotifier", PowerlossPushoverNotifier);
-}
+module.exports = (homebridgeAPI) => {
+  Service = homebridgeAPI.hap.Service;
+  homebridgeAPI.registerAccessory("homebridge-powerloss-pushover-notifier", "PowerlossPushoverNotifier", PowerlossPushoverNotifier);
+};
 
 function PowerlossPushoverNotifier(log, config) {
   var logger = log;
