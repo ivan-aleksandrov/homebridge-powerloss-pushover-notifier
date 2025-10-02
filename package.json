@@ -7,8 +7,11 @@
     "url": "https://github.com/ivan-aleksandrov/homebridge-powerloss-pushover-notifier.git"
   },
   "engines": {
-    "homebridge": ">=0.2.0",
-    "node": ">=8.0.0"
+    "homebridge": ">=1.0.0",
+    "node": ">=14.0.0"
+  },
+  "peerDependencies": {
+    "homebridge": ">=1.0.0"
   },
   "keywords": [
     "homebridge-plugin",
